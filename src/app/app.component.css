@@ -1,0 +1,11 @@
+.foo {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.blue {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}

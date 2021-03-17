@@ -1,0 +1,3 @@
+<div *ngFor="let x of color; let i = index">
+  <div [ngClass]="{'blue': x.status ==='true'}" [ngStyle]="{'background-color':x.color}" (click)="onClick(i)" class="foo"></div>
+</div>
